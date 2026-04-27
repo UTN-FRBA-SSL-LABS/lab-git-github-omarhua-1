@@ -1,7 +1,7 @@
 #include "operaciones.h"
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
-
+//el const lo que hace es que no se puede modificar el valor de a y b dentro de la funcion, es decir, son constantes
 int sumar(const int a, const int b) {
     return a + b;
 }
